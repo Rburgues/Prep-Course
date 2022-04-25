@@ -1,0 +1,15 @@
+
+For:
+For es un bucle que sirve para automatizar procesos que son repetitivos como el listar cierta cantidad de datos
+sin tener que repetir codigo para realizar esta operación
+
+&&:
+Este simbolo significa "Y", se utiliza para realizar operaciones logicas, y sirve para unir 2 o mas expresiones booleanas
+Ejemplo si if (a<b && b<a) { //Bloque de codigo a ejecutar si se cumplen ambas expresiones}
+
+||:
+Este simbolo significa "O", sirve para expresar si se cumple una condicion o otra, para ejecutar un bloque de codigo.
+Ejemplo if(a<b || a<c){ //Bloque de codigo que se ejecuta si se cumple una "O" la otra expresion}
+
+!:
+Este simbolo de admiración sirve para negar cualquier expresión. Ejemplo a == b (a igual que b) a != b (a distinto que b)
