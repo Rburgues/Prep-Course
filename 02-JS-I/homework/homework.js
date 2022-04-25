@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4.2;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -207,7 +207,8 @@ function agregarSimboloExclamacion(str) {
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
 
-  return(str + "!");
+
+  return(str+"!");
 }
 
 function combinarNombres(nombre, apellido) {
@@ -215,7 +216,7 @@ function combinarNombres(nombre, apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
 
-  return(nombre + " ",apellido);
+  return(nombre+" "+apellido);
 }
 
 function obtenerSaludo(nombre) {
@@ -223,7 +224,7 @@ function obtenerSaludo(nombre) {
   // "Martin" -> "Hola Martin!"
   // Tu código:
 
-  return("Hola "+nombre);
+  return("Hola "+nombre+"!");
   
 }
 
@@ -231,9 +232,9 @@ function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
 
-  var alto = 5;
-  var ancho = 3;
-  return("El area es: "(alto*ancho));
+  var alto;
+  var ancho;
+  return(alto*ancho);
 }
 
 
@@ -241,8 +242,8 @@ function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
 
-  var lado = 2;
-  return("El lado del cuadrado mide"+lado+" ,y su perimetro es de "+lado*4);
+  var lado;
+  return(lado*4);
 }
 
 
@@ -253,7 +254,7 @@ function areaDelTriangulo(base, altura){
   var base;
   var altura;
 
-  return("El area de su triangulo es de: "+(base*altura)/2);
+  return((base*altura)/2);
 
 }
 
@@ -266,7 +267,7 @@ function deEuroAdolar(euro){
   var euro;
   var dolarPrecio = 1.20;
 
-  return(euro+" euros, son: "+euro*dolarPrecio+" dolares.");
+  return(euro*dolarPrecio);
 
 }
 
@@ -279,12 +280,9 @@ function esVocal(letra){
   //Escribe tu código aquí
 
   var letra;
-  if(letra == "a" || "e" || "i" || "o" || "u"){
-   if(letra.length == 1){
+
+  if(((letra == "a") || (letra == "e") || (letra == "i") || (letra == "o") || (letra == "u")) && (letra.length == 1) ){
     return("Es vocal");
-   }else{
-     return("Dato incorrecto");
-   }
   }else{
     return("Dato incorrecto");
   }
