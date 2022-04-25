@@ -1,0 +1,22 @@
+Variables:
+Las Variables son lugares con un "nombre", donde yo puedo guardar cualquier dato y despues puedo 
+recuperarlo cuando lo necesite.
+
+Strings:
+Los strings son un tipo de variable, que guardan cadenas de caracteres y se alamcenan entre comillas ''. 
+Ejemplo una variable que se llama a y el valor es un string 'hola'. Seria a = 'hola'
+
+Return:
+El return dentro de una funcion indica a la misma que tiene que retornar algo, si el return no está
+acompañado de ningun dato, el resultado es "undefined", de lo contrario devolverá el dato que sea necesario
+Ejemplo return(a+b); devueve una suma de a+b
+
+If:
+El if es un statement, que necesita de una expresion booleana para poder validar si es true o false.
+El "if" se encarga de controlar si la expresion que lleva es true, y da paso al interprete a ejecutar el bloque 
+de codigo que contiene dentro de si mismo. En caso contrario, no ejecuta el codigo dentro del if
+
+Booleanos True o false
+Son un tipo de dato los cuales tienen 2 estados, o es true o es false. Se pueden utilizar en statements como el 
+"if" para controlar los datos a ejecutar. Ejemplo if(a<b){ // Bloque de codigo que se ejecuta solamente 
+si "a < b" es TRUE}
